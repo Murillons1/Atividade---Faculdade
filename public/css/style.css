@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
-    overflow: visible;
 }
 img{
     height: 500px;
@@ -20,7 +19,7 @@ h1{
 
 h3{
     font-family: 'Courier New', Courier, monospace;
-    padding: 25px 200px;
+    padding: 25px 500px;
   
 }
 
@@ -43,7 +42,7 @@ h3{
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
-    padding: 40px;
+    padding: 50px 700px;
     background-color: antiquewhite;
     text-decoration: none;
     font-size: 
@@ -53,6 +52,11 @@ h3{
  
 }
 
+strong{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
 .barra a{
     text-decoration: none;
     color: black;
@@ -60,8 +64,35 @@ h3{
 
 .barra a:hover{
     background:linear-gradient(black, white);
-    height: auto;
-    width: 30px;
+   
     
 }
 
+.carta2 p{
+   text-align: start;
+    padding: 25px 850px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.barra2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 50px 880px ;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-size: 40px;
+    padding-top: 380px;
+}
+.barra2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.barra2 a:hover{
+    background: linear-gradient(black, white);
+}
