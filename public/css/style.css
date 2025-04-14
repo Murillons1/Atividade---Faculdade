@@ -96,3 +96,23 @@ strong{
 .barra2 a:hover{
     background: linear-gradient(black, white);
 }
+
+
+.ativ4{
+    padding: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.ativ4 button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.ativ4 input{
+    padding: 10px;
+    border-radius: 10px;
+}
